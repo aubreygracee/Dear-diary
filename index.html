@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dear Diary ♡</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff7fb;
+      color: #4b3542;
+    }
+
+    header {
+      background: white;
+      padding: 22px;
+      text-align: center;
+      border-bottom: 1px solid #f3dce8;
+      position: sticky;
+      top: 0;
+    }
+
+    header h1 {
+      margin: 0;
+      font-family: Georgia, serif;
+      font-size: 32px;
+      color: #d96b9b;
+    }
+
+    header p {
+      margin: 6px 0 0;
+      color: #9d7187;
+      font-size: 14px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 15px;
+    }
+
+    nav button {
+      border: none;
+      background: #fde3ef;
+      color: #8d4969;
+      padding: 9px 15px;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    main {
+      max-width: 600px;
+      margin: 30px auto;
+      padding: 0 18px;
+    }
+
+    .welcome {
+      background: #f8d9e8;
+      padding: 25px;
+      border-radius: 25px;
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .welcome h2 {
+      margin-top: 0;
+      color: #9d4e73;
+    }
+
+    .post {
+      background: white;
+      padding: 20px;
+      border-radius: 22px;
+      margin-bottom: 20px;
+      box-shadow: 0 3px 15px rgba(150, 90, 120, 0.08);
+    }
+
+    .profile {
+      font-weight: bold;
+      color: #c45c8b;
+    }
+
+    .post p {
+      line-height: 1.5;
+    }
+
+    .like {
+      border: none;
+      background: #fff0f6;
+      padding: 9px 14px;
+      border-radius: 20px;
+      cursor: pointer;
+      color: #b34d7b;
+    }
+
+    .like:hover {
+      background: #f8d4e5;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>dear diary ♡</h1>
+    <p>a little space for us.</p>
+
+    <nav>
+      <button>Home</button>
+      <button>Friends</button>
+      <button>Profile</button>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="welcome">
+      <h2>Hey girlies 🎀</h2>
+      <p>Welcome to our little corner of the internet.</p>
+    </section>
+
+    <div class="post">
+      <div class="profile">♡ your first post</div>
+      <p>Welcome to Dear Diary! This is where our posts will go. 💕</p>
+      <button class="like" onclick="this.innerHTML='♥ Liked!'">♡ Like</button>
+    </div>
+
+    <div class="post">
+      <div class="profile">🎀 Coming soon</div>
+      <p>Photos, friend profiles, comments, likes and more...</p>
+      <button class="like">♡ Like</button>
+    </div>
+
+  </main>
+
+</body>
+</html>
